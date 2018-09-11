@@ -9,7 +9,7 @@ Léonard Bender: Male, 30-65, Region 3, votes=87
 Mara Bruchez: Female, 18-30, Region 1, votes=50
 Edouard Carron: Male, 30-65, Region 3, votes=60
 Antoine Conforti: Male, 18-30, Region 1, votes=60
-Etienne Coquoz: Male, 30-65, Region 2, votes=50
+Etienne Coquoz: Male, 30-65, Region 1, votes=50
 Pascal Crettenand: Male, 30-65, Region 2, votes=22
 Cilette Cretton: Female, 65+, Region 1, votes=72
 Tiago Gomez: Male, 18-30, Region 2, votes=35
@@ -27,8 +27,8 @@ Female: 9
 18-30: 7
 30-65: 9
 65+: 1
-Region 1: 6
-Region 2: 5
+Region 1: 7
+Region 2: 4
 Region 3: 5
 Region 4: 1
 Region 5: 0

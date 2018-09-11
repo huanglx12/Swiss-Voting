@@ -17,7 +17,7 @@ Karine Contat: Female, 30-65, Region 2, votes=81
 Marie du Pontavice: Female, 30-65, Region 2, votes=87
 Alexandre Ferchaud: Male, 18-30, Region 2, votes=81
 Vincent Luyet: Male, 30-65, Region 1, votes=87
-Bernadette Morand-Aymon: Female, 65+, Region 1, votes=112
+Bernadette Morand-Aymon: Female, 30-65, Region 1, votes=112
 Maryline Morard: Female, 30-65, Region 1, votes=78
 Emilie Praz: Female, 30-65, Region 1, votes=140
 Bernard Reist: Male, 65+, Region 1, votes=69
@@ -28,7 +28,7 @@ Marie Zimmermann: Female, 30-65, Region 1, votes=105
 Male: 9
 Female: 9
 18-30: 4
-30-65: 9
-65+: 5
+30-65: 10
+65+: 4
 Region 1: 13
 Region 2: 5

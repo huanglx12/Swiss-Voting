@@ -1,0 +1,35 @@
+Total votes of the optimal unconstrained committee: 1018
+Total votes of an optimal balance committee: 1012
+Total number of optimal balance committees: 1
+Balance constraints: [[9, 8], [4, 7, 2], [5, 1, 2, 0, 2, 1]]
+Votes: [81 59 63 48 76 38 55 79 17 51 49 57 82 34 37 65 42 32 31 52 84]
+
+Optimal committee: 1
+Delphine Bonvin: Female, 30-65, Region 6, votes=81
+Coralie Caloz: Female, 18-30, Region 5, votes=59
+Melissa Cavallo: Female, 18-30, Region 5, votes=63
+Marisa Celas: Female, 18-30, Region 3, votes=48
+Blaise Crettol: Male, 30-65, Region 3, votes=76
+Thierry Crettol: Male, 30-65, Region 3, votes=38
+Jonathan Djehiche: Male, 18-30, Region 3, votes=55
+Jean Iwanowski: Male, 30-65, Region 1, votes=79
+Alexandre Loretan: Male, 18-30, Region 1, votes=51
+Michel Minnig: Male, 65+, Region 2, votes=49
+François Parvex: Male, 30-65, Region 3, votes=57
+Céline Ramsauer: Female, 30-65, Region 5, votes=82
+Jean-Charles Rey: Male, 30-65, Region 1, votes=65
+Christiane Rielle: Female, 30-65, Region 1, votes=42
+Jaky Vilettaz: Male, 65+, Region 1, votes=31
+Jacqueline Wyder Besson: Female, 30-65, Region 5, votes=52
+Catherine Zufferey: Female, 30-65, Region 1, votes=84
+Male: 9
+Female: 8
+18-30: 5
+30-65: 10
+65+: 2
+Region 1: 6
+Region 2: 1
+Region 3: 5
+Region 4: 0
+Region 5: 4
+Region 6: 1

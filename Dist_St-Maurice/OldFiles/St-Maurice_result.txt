@@ -1,0 +1,20 @@
+Total votes of the optimal unconstrained committee: 209
+Total votes of an optimal balance committee: 209
+Total number of optimal balance committees: 1
+Balance constraints: [[2, 3], [1, 2, 0], [2, 1, 1]]
+Votes: [36 50 16 12 31 13 39 53 14]
+
+Optimal committee: 1
+Quentin Chevalley: Male, 18-30, Region 2, votes=36
+Emilie Dupuis: Female, 18-30, Region 3, votes=50
+Natanaëlle Perrion: Female, 18-30, Region 2, votes=31
+Martine Rouiller: Female, 30-65, Region 1, votes=39
+Olivier Udriot: Male, 30-65, Region 1, votes=53
+Male: 2
+Female: 3
+18-30: 3
+30-65: 2
+65+: 0
+Region 1: 2
+Region 2: 2
+Region 3: 1

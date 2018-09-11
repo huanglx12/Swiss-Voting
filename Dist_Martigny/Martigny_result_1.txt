@@ -1,0 +1,34 @@
+Total votes of the optimal unconstrained committee: 991
+Total votes of an optimal balance committee: 976
+Total number of optimal balance committees: 1
+Balance constraints: [[8, 9], [4, 7, 1], [5, 3, 2, 1, 0]]
+Votes: [29 24 87 50 17 60 60 50 22 72 30 35 38 44 77 88 17 60 25 42 98 33 60 37]
+
+Optimal committee: 1
+Léonard Bender: Male, 30-65, Region 3, votes=87
+Mara Bruchez: Female, 18-30, Region 1, votes=50
+Edouard Carron: Male, 30-65, Region 3, votes=60
+Antoine Conforti: Male, 18-30, Region 1, votes=60
+Etienne Coquoz: Male, 30-65, Region 2, votes=50
+Pascal Crettenand: Male, 30-65, Region 2, votes=22
+Cilette Cretton: Female, 65+, Region 1, votes=72
+Tiago Gomez: Male, 18-30, Region 2, votes=35
+Virginie Gosset: Female, 30-65, Region 3, votes=38
+Michelle Grandjean Böhm: Female, 30-65, Region 2, votes=44
+Jennifer Grinzinger: Female, 30-65, Region 1, votes=77
+Marion Mabillard: Female, 18-30, Region 4, votes=88
+Loise Pignat: Female, 18-30, Region 1, votes=60
+Véronique Rodriguez: Female, 18-30, Region 2, votes=42
+Johann Roduit: Male, 30-65, Region 1, votes=98
+Laurent Salvisberg: Male, 30-65, Region 3, votes=33
+Mirca Sigrist: Female, 18-30, Region 3, votes=60
+Male: 8
+Female: 9
+18-30: 7
+30-65: 9
+65+: 1
+Region 1: 6
+Region 2: 5
+Region 3: 5
+Region 4: 1
+Region 5: 0

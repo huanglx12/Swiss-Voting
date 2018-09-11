@@ -1,0 +1,19 @@
+Total votes of the optimal unconstrained committee: 209
+Total votes of an optimal balance committee: 209
+Total number of optimal balance committees: 1
+Balance constraints: [[3, 2], [1, 2, 0], [2, 2]]
+Votes: [41 15 21 54 27 58 16 29]
+
+Optimal committee: 1
+Jacques Blanc: Male, 30-65, Region 1, votes=41
+Nathalie Mayoraz: Female, 30-65, Region 2, votes=54
+Eric Philippoz: Male, 30-65, Region 1, votes=27
+Eloise Rong: Female, 18-30, Region 2, votes=58
+Marc-André Vuignier: Male, 30-65, Region 2, votes=29
+Male: 3
+Female: 2
+18-30: 1
+30-65: 4
+65+: 0
+Region 1: 2
+Region 2: 3

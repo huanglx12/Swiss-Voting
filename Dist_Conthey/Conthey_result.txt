@@ -1,0 +1,26 @@
+Total votes of the optimal unconstrained committee: 470
+Total votes of an optimal balance committee: 470
+Total number of optimal balance committees: 1
+Balance constraints: [[6, 5], [1, 4, 2], [4, 1, 2]]
+Votes: [ 7 29 20 48 30 73 78 59 41 41 24 27 16 11]
+
+Optimal committee: 1
+Pascal Coudray: Male, 30-65, Region 1, votes=29
+Gilles Crettenand: Male, 30-65, Region 2, votes=20
+Letizia D'Andrea: Female, 30-65, Region 1, votes=48
+Thierry Dewier: Male, 30-65, Region 3, votes=30
+Florian Evequoz: Male, 30-65, Region 1, votes=73
+Pascale Fumeaux: Female, 30-65, Region 1, votes=78
+Aline Giroud: Female, 30-65, Region 3, votes=59
+Ana Gross: Female, 30-65, Region 1, votes=41
+Xavier Guyaz: Male, 18-30, Region 1, votes=41
+Jean-Pierre Lonfat: Male, 65+, Region 1, votes=24
+Marie-Odile Luyet: Female, 65+, Region 1, votes=27
+Male: 6
+Female: 5
+18-30: 1
+30-65: 8
+65+: 2
+Region 1: 8
+Region 2: 1
+Region 3: 2

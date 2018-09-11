@@ -1,0 +1,34 @@
+Total votes of the optimal unconstrained committee: 1726
+Total votes of an optimal balance committee: 1708
+Total number of optimal balance committees: 1
+Balance constraints: [[9, 9], [4, 8, 4], [10, 5]]
+Votes: [ 70 117 101  86  30  29  83  65  61  56  81  62  59  33  87  81  31  32
+  87  54  53  44  45  35 112  78  53  49  47 140  47  69  69  39  62  28
+  54  83 212 105]
+
+Optimal committee: 1
+Bénédicte Balet: Female, 30-65, Region 2, votes=117
+Laura Balma: Female, 18-30, Region 1, votes=101
+Denyse Betchov: Female, 65+, Region 1, votes=86
+Jean Bonnard: Male, 65+, Region 1, votes=83
+Gillian Bruchez: Male, 18-30, Region 1, votes=61
+Samuel Carruzzo: Male, 18-30, Region 1, votes=56
+Karine Contat: Female, 30-65, Region 2, votes=81
+Marie du Pontavice: Female, 30-65, Region 2, votes=87
+Alexandre Ferchaud: Male, 18-30, Region 2, votes=81
+Vincent Luyet: Male, 30-65, Region 1, votes=87
+Bernadette Morand-Aymon: Female, 65+, Region 1, votes=112
+Maryline Morard: Female, 30-65, Region 1, votes=78
+Emilie Praz: Female, 30-65, Region 1, votes=140
+Bernard Reist: Male, 65+, Region 1, votes=69
+Jean-Yves Riand: Male, 30-65, Region 1, votes=69
+Emmanuel Théler: Male, 30-65, Region 1, votes=83
+Jean Zermatten: Male, 65+, Region 2, votes=212
+Marie Zimmermann: Female, 30-65, Region 1, votes=105
+Male: 9
+Female: 9
+18-30: 4
+30-65: 9
+65+: 5
+Region 1: 13
+Region 2: 5

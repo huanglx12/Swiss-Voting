@@ -1,11 +1,15 @@
-﻿# Swiss Voting in 2018
+﻿# Swiss Voting in 2018 - Primaries for Constitutive Assembly Election in Valais
 
 
-## 1. Swiss voting codes
+## 0. Context
 
-The canton of Valais will be revising its Constitution and a Constitutional Assembly has to be elected in November, 2018. The electoral committee thinks that it is important that *all* members of the civil society are represented in the writing of a Constitution -- so they need a way to select a balance committee across important attributes: gender, age and locality. 
+The canton of Valais will be revising its Constitution and a Constitutive Assembly has to be elected in November, 2018 following a party-list proportional election process. A non-partisan group wants to allow members of the civil society that do not belong to any political party to be able to run for this election as well, despite the fact that the electoral process requires party lists. Therefore they have organized primaries to elect committees in 8 districts of the canton. These elected committees will run for the November election under the banner of the non-partisan group.
 
-### 1.1. Running a single experiment using the default settings
+The electoral committee of APPEL CITOYEN thinks that it is important that *all* members of the civil society are represented in the writing of a Constitution -- so they need a way to select a balance committee across important attributes: gender, age and locality. 
+
+## 1. Usage
+
+### 1.1 Running a single experiment using the default settings
 
 To run the code, you need to install Python 2.7. The main program is balance_election.py, which takes an election as input, and computes optimal balanced committees. To test whether the code works, try:
 

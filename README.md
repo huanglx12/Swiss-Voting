@@ -7,13 +7,11 @@ The canton of Valais will be revising its Constitution and a Constitutional Asse
 
 ### 1.1. Running a single experiment using the default settings
 
-To run the code, you need to install Python 2.7 and a CPLEX solver (https://www.ibm.com/products/ilog-cplex-optimization-studio). After installing the provided IBM CPLEX solver, one should update line 4 in bloc_rule.py with the path of the cplex solver. E.g., the default path on MacOS seems to be /Applications/CPLEX_Studio_Community128/cplex/python/2.7/x86-64_osx.
-
-The main program is balance_election.py, which takes an election as input, formulates voting as an integer linear program, and computes optimal balanced committees. To test whether the code works, try:
+To run the code, you need to install Python 2.7. The main program is balance_election.py, which takes an election as input, and computes optimal balanced committees. To test whether the code works, try:
 
   python balance_election.py Entremont
 
-where "Entremont" is a district name. After running "balance_election.py", the code will generate an resulting file "Dist_Entremont/Entremont_result.txt" that contains the information of all winning committees. The code will also generate an additional file that contains the formulation of the corresponding integer linear program (optimization.lp).
+where "Entremont" is a district name. After running "balance_election.py", the code will generate an resulting file "Dist_Entremont/Entremont_result.txt" that contains the information of all winning committees.
 
 ### 1.2. Information of candidates and balance criteria
 
@@ -35,7 +33,8 @@ The program will read the following three files from the folder "Dist_district":
   "district_attribute" -- the file containing the information of balance constraints;
   "district_votes" -- the file containing the information of votes.
 
-The number "alg_num" represents the applied algorithm: alg_num=0 represents using CPLEX and alg_num=1 represents using an enumerating algorithm.
+The number "alg_num" represents the applied algorithm: alg_num=0 represents using the default enumerating algorithm and alg_num=1 represents using a CPLEX solver.
+Hint: Using alg_num=1 requires to install a CPLEX solver (https://www.ibm.com/products/ilog-cplex-optimization-studio). After installing the provided IBM CPLEX solver, one should update line 4 in bloc_rule.py with the path of the cplex solver. E.g., the default path on MacOS seems to be /Applications/CPLEX_Studio_Community128/cplex/python/2.7/x86-64_osx. The code will also generate an additional file that contains the formulation of the corresponding integer linear program (optimization.lp).
 
 The "district_candidates" file has the following format:
   1. A single line with a number m (the number of candidates).

@@ -210,7 +210,7 @@ if __name__ == "__main__":
 
     #####################################
     # using CPLEX to compute the optimal balance committees
-    if alg == 0:
+    if alg == 1:
         W, S = bloc(C, votes, k, stru, lowpar, uppar)  # compute optimal committees with balance constraints
 
         sortvotes = sorted(map(int, votes), reverse=True)
@@ -224,7 +224,7 @@ if __name__ == "__main__":
     # using an enumerating algorithm to compute the optimal balance committees
     ################################################################################
     # compute the number of candidates in each partition
-    elif alg == 1:
+    elif alg == 0:
         sortvotes = sorted(map(int, votes), reverse=True)
         US = 0
         for i in range(k):

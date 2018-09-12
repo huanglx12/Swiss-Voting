@@ -33,8 +33,9 @@ The program will read the following three files from the folder "Dist_district":
   "district_attribute" -- the file containing the information of balance constraints;
   "district_votes" -- the file containing the information of votes.
 
-The number "alg_num" represents the applied algorithm: alg_num=0 represents using the default enumerating algorithm and alg_num=1 represents using a CPLEX solver.
-Hint: Using alg_num=1 requires to install a CPLEX solver (https://www.ibm.com/products/ilog-cplex-optimization-studio). After installing the provided IBM CPLEX solver, one should update line 4 in bloc_rule.py with the path of the cplex solver. E.g., the default path on MacOS seems to be /Applications/CPLEX_Studio_Community128/cplex/python/2.7/x86-64_osx. The code will also generate an additional file that contains the formulation of the corresponding integer linear program (optimization.lp).
+The number "alg_num" represents the applied algorithm: alg_num=0 or without alg_num represents using the default enumerating algorithm and alg_num=1 represents using a CPLEX solver.
+
+Hint: For Swiss voting, the default enumerating algorithm is fast enough. However, if one wants to use our codes on larger inputs, then the defaults might be slow and one can use CPLEX to speed up. Using CPLEX (alg_num=1) requires to install a CPLEX solver (https://www.ibm.com/products/ilog-cplex-optimization-studio). After installing the provided IBM CPLEX solver, one should update line 4 in bloc_rule.py with the path of the cplex solver. E.g., the default path on MacOS seems to be /Applications/CPLEX_Studio_Community128/cplex/python/2.7/x86-64_osx. The code will also generate an additional file that contains the formulation of the corresponding integer linear program (optimization.lp).
 
 The "district_candidates" file has the following format:
   1. A single line with a number m (the number of candidates).

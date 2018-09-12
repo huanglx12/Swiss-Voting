@@ -5,13 +5,12 @@
 import scipy.misc
 import copy
 import itertools
-from random import *
 from sys import *
-import csv
+import sys
 import codecs
+import numpy as np
 
 # import rule package
-from bloc_rule import *
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -211,6 +210,7 @@ if __name__ == "__main__":
     #####################################
     # using CPLEX to compute the optimal balance committees
     if alg == 1:
+        from bloc_rule import *
         W, S = bloc(C, votes, k, stru, lowpar, uppar)  # compute optimal committees with balance constraints
 
         sortvotes = sorted(map(int, votes), reverse=True)

@@ -7,7 +7,8 @@ The canton of Valais will be revising its Constitution and a Constitutional Asse
 
 ### 1.1. Running a single experiment using the default settings
 
-To run the code, you might need to install a package CPLEX (https://www.ibm.com/products/ilog-cplex-optimization-studio). 
+To run the code, you need to install Python 2.7 and a CPLEX solver (https://www.ibm.com/products/ilog-cplex-optimization-studio). After installing the provided IBM CPLEX solver, one should update line 4 in bloc_rule.py with the path of the cplex solver. E.g., the default path on MacOS seems to be /Applications/CPLEX_Studio_Community128/cplex/python/2.7/x86-64_osx.
+
 The main program is balance_election.py, which takes an election as input, formulates voting as an integer linear program, and computes optimal balanced committees. To test whether the code works, try:
 
   python balance_election.py Entremont

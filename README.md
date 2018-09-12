@@ -1,11 +1,15 @@
-﻿# Swiss Voting in 2018
+﻿# Swiss Voting in 2018 - Primaries for Constitutive Assembly Election in Valais
 
 
-## 1. Swiss voting codes
+## 1. Context
 
-The canton of Valais will be revising its Constitution and a Constitutional Assembly has to be elected in November, 2018. The electoral committee thinks that it is important that *all* members of the civil society are represented in the writing of a Constitution -- so they need a way to select a balance committee across important attributes: gender, age and locality. 
+The canton of Valais will be revising its Constitution and a Constitutive Assembly has to be elected in November, 2018 following a party-list proportional representation electoral process. A non-partisan group wants to allow members of the civil society that do not belong to any political party to run for this election as well, despite the fact that the electoral process requires party lists. Therefore they have organized primaries to elect committees in 8 districts of the canton. These elected committees will run for the November election under the banner of the non-partisan group.
 
-### 1.1. Running a single experiment using the default settings
+The electoral committee of the non-partisan group thinks that it is important that *all* members of the civil society are represented in the writing of a Constitution -- so they need a way to select a balance committee across important attributes: gender, age and locality. 
+
+## 2. Usage
+
+### 2.1 Running a single experiment using the default settings
 
 To run the code, you need to install Python 2.7. The main program is balance_election.py, which takes an election as input, and computes optimal balanced committees. To test whether the code works, try:
 
@@ -13,14 +17,14 @@ To run the code, you need to install Python 2.7. The main program is balance_ele
 
 where "Entremont" is a district name. After running "balance_election.py", the code will generate an resulting file "Dist_Entremont/Entremont_result.txt" that contains the information of all winning committees.
 
-### 1.2. Information of candidates and balance criteria
+### 2.2. Information of candidates and balance criteria
 
 The basic information of Swiss voting can be found in the folder "Files_AppelCitoyen".
 The file "Candidats-primaire-AC-final-pour-EPFL+Votebox.xlsx" contains the information of all candidates in different districts, including name (Nom and Prenom), gender (F/H), age (18-30/30-65/65+) and commune.
 The file "Region.pdf" indicates how to divide different districts into at most 6 regions.
 The file "Criteria.pdf" contains the balance constraints for gender, age and region in different districts. Note that the "flotant" column represents the number of selected candidates that can be allocated in any manner.
 
-### 1.3. Generating all optimal balance committees into a .txt file
+### 2.3. Generating all optimal balance committees into a .txt file
 
 Program "balance_election.py" can compute all optimal balance committee that achieves the most votes by running and records them in a .txt file:
 
@@ -109,7 +113,7 @@ For example, if input files are the prior examples containing seven candidates, 
   Region 1: 3
   Region 2: 3
 
-### 1.4. Generating all optimal balance committees into a .csv file
+### 2.4. Generating all optimal balance committees into a .csv file
 
 Program "csv_result_generation.py" can compute all optimal balance committee that achieves the most votes by running and records them in a .csv file:
 
